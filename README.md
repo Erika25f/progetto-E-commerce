@@ -1,2 +1,2 @@
 # progetto-E-commerce
-progetto per corso webdesign 2
+progetto-e-commerce.vercel.app
