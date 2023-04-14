@@ -1,2 +1,2 @@
 # progetto-E-commerce
-progetto-e-commerce.vercel.app
+https://progetto-e-commerce-82k6m8hus-feraerika9-gmailcom.vercel.app/
