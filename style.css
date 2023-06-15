@@ -1,29 +1,137 @@
- .swiper {
-      width: 100%;
-      height: 100%;
-    }
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
 
-    .swiper-slide {
+/*swiper*/
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* nav prodotti */
+
+a {
+  display: block;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f9f9f9;
+  overflow: hidden;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  flex: 1;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #000;
+  transition: background-color 0.3s;
+  border-bottom: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+.navbar-item:hover,
+.navbar-item:focus {
+  background-color: #ddd;
+  border-bottom: 2px solid #333;
+}
+
+.navbar-item.active {
+  background-color: #ccc;
+  border-bottom: 2px solid #333;
+}
+
+.navbar-boxes {
+  display: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.navbar-box {
+  display: none;
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.navbar-box.active {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-item {
+      flex: none;
+      width: 100%;
+  }
+}
+
+
+
+#lips {
+  text-align: right;
+}
+
+#eyes {
+  text-align: center;
+}
+
+#collab {
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+
+  #lips {
       text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  }
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  #collab {
+  text-align: center;
+}
+}
+
+
+/*griglia prodotti*/
 
 #informazioneprodotti {
-  height: 50px !important;
   margin: 10px;
 }
 
 .imgpreviewprodotto {
-  height: 600px !important;
+  height: auto !important;
 }
+
+
+.immagineprodotto {
+  text-align: center;
+  margin: 20px auto;
+}
+
