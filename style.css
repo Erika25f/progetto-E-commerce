@@ -30,9 +30,10 @@ footer {
 
 /* nav prodotti */
 
-a {
-  display: block;
+#logonav{
+  width: 3%;
 }
+
 
 .navbar {
   display: flex;
@@ -92,8 +93,12 @@ a {
       width: 100%;
   }
 }
-
-
+#logoesteso { 
+width: 25%;
+}
+#divlogo { 
+  text-align: center !important; 
+  }
 
 #lips {
   text-align: right;
@@ -134,4 +139,3 @@ a {
   text-align: center;
   margin: 20px auto;
 }
-
