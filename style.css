@@ -1,7 +1,9 @@
-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
+/*spedizione*/
+.free-shipping-banner {
+  text-align: center;
+  background-color: #FFB6C1;
+  color: #fff;
+  height: 30px;
 }
 
 /*swiper*/
@@ -27,6 +29,12 @@ footer {
   object-fit: cover;
 }
 
+.cluster {
+   text-align: center;
+  font-family: "Times New Roman";
+  margin-top:25px;
+    font-size: 45px;
+}
 
 /* nav prodotti */
 
@@ -79,13 +87,13 @@ footer {
   display: none;
   font-size: 14px;
   color: #666;
-  margin-top: 10px;
+  margin-top: 20px;
   line-height: 1.5;
 }
 
 .navbar-box.active {
   display: block;
-}
+ }
 
 @media screen and (max-width: 600px) {
   .navbar-item {
@@ -127,7 +135,8 @@ width: 25%;
 /*griglia prodotti*/
 
 #informazioneprodotti {
-  margin: 10px;
+  margin-top: 10px;
+ 
 }
 
 .imgpreviewprodotto {
@@ -138,4 +147,28 @@ width: 25%;
 .immagineprodotto {
   text-align: center;
   margin: 20px auto;
+   font-family: "Times New Roman"
 }
+
+    H2{
+  font-size:10px;
+  font-family: "Times New Roman";
+  text-align: center;
+  color:white;
+  margin-top:40
+}
+.riquadro {
+  font-family: "Times New Roman";
+  text-align: center;
+  font-weight: bold;
+  }
+
+
+footer{
+  background-color:#FFB6C1;
+  text-align:center;
+  font-size:12px;
+  color: black;
+  border-top: 2px solid orange;
+  opacity:90%;
+  }
