@@ -16,8 +16,7 @@
 
 .bestseller  { 
   font-size: 20px
- text-align: 150px; /* orizzontale */
-line-height: 150px; /* verticale */
+text-align:center;
    font-family: "Times New Roman";
   }
 
