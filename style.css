@@ -188,10 +188,11 @@ footer{
 }
 
 #contact {
-  background: #ffa07a;
+  background:	#ffffff;
 }
 
 #contact h3 {
+   font-family: "Times New Roman";
   color: 	#ff0000;
   display: block;
   font-size: 30px;
