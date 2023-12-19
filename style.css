@@ -268,4 +268,45 @@ fieldset {
 #contact textarea:focus {
   outline: 0;
   border: 1px solid #999;
+} 
+::-webkit-input-placeholder {
+  color: #888;
 }
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+.img-chi {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .contatti {
+    flex-direction: column;
+
+    margin: 0 20px;
+  }
+
+  #contact {
+    width: 100%;
+  }
+
+  .contatti .form {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contatti .indirizzo {
+    margin: 20px 0;
+    order: 2;
+
+  }
