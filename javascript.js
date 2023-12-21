@@ -39,4 +39,4 @@ function removeProduct(event) {
     totalAmountElement.innerHTML = "€0,00";
   }
 
-});
+
