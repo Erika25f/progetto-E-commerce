@@ -111,29 +111,6 @@ width: 25%;
   text-align: center !important; 
   }
 
-#lips {
-  text-align: right;
-}
-
-#eyes {
-  text-align: center;
-}
-
-#collab {
-  text-align: left;
-}
-
-@media screen and (max-width: 600px) {
-
-  #lips {
-      text-align: center;
-  }
-
-  #collab {
-  text-align: center;
-}
-}
-
 
 /*griglia prodotti*/
 
@@ -310,4 +287,10 @@ fieldset {
     margin: 20px 0;
     order: 2;
 
+  }
+
+
+  .mb-4 {
+   text-align: center;
+   font-family: "Times New Roman";
   }
