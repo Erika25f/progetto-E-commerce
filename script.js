@@ -78,3 +78,26 @@ function removeProduct(event) {
     totalAmountElement.innerHTML = "€0,00";
   }
 };
+
+
+   
+   
+if (productName) {
+        
+ 
+var listItem = document.createElement("li");
+        listItem.
+        
+appendChild(document.createTextNode(productName));
+
+        
+
+       
+var cartItems = document.getElementById("cart-items");
+        cartItems.
+        cartIt
+
+      
+appendChild(listItem);
+    }
+});
