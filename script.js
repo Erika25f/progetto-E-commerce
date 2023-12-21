@@ -29,3 +29,9 @@ navbarItems.forEach((navbarItem) => {
         navbarBoxesContainer.style.display = 'block';
     });
 });
+
+
+function addToCart() {
+  var productName = src="https://i.pinimg.com/564x/01/2c/6b/012c6b62e29c42c66a2120aa41cdd133.jpg";
+window.location.href = 'carrello.html';
+}
