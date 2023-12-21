@@ -11,7 +11,14 @@
 #logonav{
   width: 3%;
 }
+}
+#logoesteso { 
+width: 15%;
+}
 
+#divlogo { 
+  text-align: center !important; 
+  }
 
 /*swiper*/
 
@@ -44,16 +51,6 @@
 }
 
 
-
-
-}
-#logoesteso { 
-width: 15%;
-}
-
-#divlogo { 
-  text-align: center !important; 
-  }
 
 
 /*griglia prodotti*/
