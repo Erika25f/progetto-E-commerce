@@ -13,7 +13,8 @@
 }
 }
 #logoesteso { 
-width: 15%;
+width: 15%; !important; 
+  }
 }
 
 #divlogo { 
