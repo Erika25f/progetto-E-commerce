@@ -12,7 +12,7 @@ function calculateTotal() {
       var priceString = priceElement.textContent;
       var price = parseFloat(priceString.replace(/[^0-9.,]/g, "").replace(",", "."));
       var quantity = parseInt(quantityElements[index].value);
-      var total = price * quantity;
+      var total = price * quantity; onchange
       subtotal += total;
 
       var totalElement = quantityElements[index].parentNode.nextElementSibling;
