@@ -38,6 +38,4 @@ function removeProduct(event) {
     shippingCostElement.innerHTML = "€0,00";
     totalAmountElement.innerHTML = "€0,00";
   }
-
-function calcolaPrezzo() {
-  var quantita = document
+};
