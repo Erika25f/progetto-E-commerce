@@ -39,4 +39,5 @@ function removeProduct(event) {
     totalAmountElement.innerHTML = "€0,00";
   }
 
-
+function calcolaPrezzo() {
+  var quantita = document
